@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Press+Start+2P&family=Rakkas&display=swap');
+
+
+:root{
+    --amarelo: #d9dc18;
+}
+
+
+body{
+    background-image: url("galaxia legal.jpg");
+}
+header{
+    text-align: center;
+}
+nav{
+    background-color: var(--amarelo);
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 90px;
+    margin-left: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+img{
+    width: 1200px;
+    height: 500px;
+   border-radius: 50px;
+   box-shadow: 10px 0px 30px var(--amarelo);
+}
+.imgplanet{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+}
+main{
+    border-radius: 50px;
+    background-color: #303061;
+    margin: 50px;
+    color: white;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--amarelo) ;
+  font-size: 50px;
+
+}
+button{
+    background-color: var(--amarelo);
+    border-radius: 30px;
+    width: 100px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}

@@ -1,0 +1,16 @@
+using UnityEngine; //para untilizar o motor da unity
+
+public class PlayerMovement : MonoBehaviour //classe para o player se mover
+{
+    public float moveSpeed = 5f; //velocidade do movimento
+
+    void Update() //atualizar
+    {
+        float horizontalInput = Input.GetAxis("Horizontal"); //movimento horaizontal
+        float verticalInput = Input.GetAxis("Vertical"); //movimento vertical
+
+        Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * moveSpeed * Time.deltaTime; //coordenada x, y e z
+
+        transform.Translate(movement); //transformar os dados em movimento
+    }
+}

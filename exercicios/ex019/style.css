@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Press+Start+2P&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #168aa7;
+}
+header{
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+}
+nav{
+    background-color: #137b96;
+    padding: 3px;
+    box-shadow: 6px 9px 25px black;
+    text-align: center;
+    border-radius: 50px;
+}
+nav > a{
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 90px;
+    text-align: center;
+}
+nav > a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+main{
+    padding: 5px;
+    margin: 5px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 280vh;
+}
+section{
+    background-color: rgb(250, 248, 248);
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 150px;
+    border-radius: 50px;
+    width: 80%; 
+    height: 300px;
+    box-shadow: 6px 9px 25px black;
+}
+img{
+    width: 300px;
+    height: 250px;
+    float: left; 
+    margin-right: 20px; 
+    padding-left: 40px;
+ 
+}
+footer{
+    background-color: #0a1a3d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+header > h2{
+    color: #0a1a3d;
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #0a1a3d;
+      
+}
+section > h2{
+    font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+font-size: 50px;
+padding-left:10px;
+color: #0a1a3d;
+}
+section > p{
+    font-size: 20px;
+    overflow: auto;
+}

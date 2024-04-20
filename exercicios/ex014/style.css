@@ -1,0 +1,17 @@
+.eu
+{
+    background-color: aqua;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px rgb(43, 168, 226);
+}
+.mamae{
+    color: rgb(73, 9, 9);
+    font-size: 30px;
+    background-color: palevioletred;
+    box-shadow: 15px 15px 15px ;
+    border-radius: 30px;
+    text-align: center;
+}

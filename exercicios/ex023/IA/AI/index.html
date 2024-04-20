@@ -1,0 +1,67 @@
+. 
+<html>
+    <head>
+      <title>Emoção Em Emoji</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+    <div class="container">
+    
+      
+        <h3 class="btn btn-warning heading">Qual seu mood de hoje?
+        <br>
+        <span>&#128522;</span>
+        <span>&#128512;</span>
+        <span>&#128532;</span>
+        <span>&#128546;</span>
+        <span>&#128545;</span>
+        <span>&#128548;</span>
+        </h3>
+  
+        <br><br>
+  
+        <p style="font-size: 22px;">Tire sua selfie para gerar o emoji
+            <br>
+      
+        </p>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Visualização da Webcam:</label>
+            <div id="camera"></div>
+            <br><br>
+            <button onclick="takeSnapshot();" class="btn btn-warning">Capturar Imagem</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Previsão 1: </label>
+            <p class="emotionName" id="resultEmotionName"></p>
+            <p class="emoji" id="updateEmoji"></p>
+  
+            <!-- <label>Previsão 2: </label>
+            <p class="emotionName" id="resultEmotionName2"></p>
+            <p class="emoji" id="updateEmoji2"></p> -->
+          </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Foto: </label>
+            <div id="result"></div>
+            <br><br>
+            <button onclick="check();" class="btn btn-success">Prever Emoção</button>
+        </div>
+    </div>
+  
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  
+   

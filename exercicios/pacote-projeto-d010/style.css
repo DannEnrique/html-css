@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Press+Start+2P&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --cor01: #39B2BB;
+    --cor02: #448B91;
+    --cor03: #20D9E5;
+    --cor04: #416466;
+    --cor05: #303A3B;
+    --cor06: #2A3233;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans_serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --font-android: 'Android', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor04);
+}
+
+header > p {
+    color:white;
+}
+header > h1 {
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor04);
+}
+nav{
+    background-color: var(--cor05);
+}
+main {
+    background-color: white;
+}
+main h1{
+    color: var(--cor04);
+    font-family: var(--font-android);
+    border: 0px;
+    border-radius: 150px;
+}
+
+main h2{
+    font-family: var(--font-android);
+}
+footer{
+    background-color: var(--cor05);
+    color: white;
+}

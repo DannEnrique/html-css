@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: url('fundo2.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+img{
+  margin-top: 50px;
+}
+main{
+    background-color: white;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: 15px 15px 15px;
+}
+main:hover{
+    background-image: url('homem.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main:hover > div{
+  display: none;
+}
