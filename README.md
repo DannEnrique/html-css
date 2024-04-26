@@ -8,7 +8,7 @@
 meu insta @dann.enrique
 
 <ul>
-<li><a href="https://dannenrique.github.io/html-css/exercicios/ex001/index.html"> executar o exercicio 001 </a></li>
+<li><a href="https://dannenrique.github.io/html-css/exercicios/ex001/index.html"> executar o exercicio 001 </a>
 <br>
 <li><a href="https://dannenrique.github.io/html-css/exercicios/ex002/index.html"> executar o exercicio 002 </a>
 <br>
